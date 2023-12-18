@@ -23,6 +23,6 @@ deps:
 	cmake -G "Unix Makefiles"
 	make
 	sudo make install
-	..
+	cd ..
 	rm -r glfw
 	clear
